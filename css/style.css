@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1 {
+  font-size: 3.75rem;
+  margin-top: 0;
+  margin: 0 auto; /* Combination of margin and width will ceneter it*/
+  width: 20%;
+  font-family: "Merienda One", cursive;
+  color: #ffe14a;
+}
+
+h2,
+h3 {
+  color: #1a2d8b;
+}
+
+p {
+  color: #1a2d8b;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #535354;
+  border-width: 5px;
+  width: 25%;
+}
+
+.top-hr {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 15%;
+  right: 30%;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+
+.top-container {
+  background-image: linear-gradient(#48c6ef, #6f86d6);
+  /* (#ff9966, #ff5e62 */
+  padding: 20px;
+  position: relative; /*So i can child picture can be set to absolute*/
+  padding-top: 8%;
+  padding-bottom: 0;
+}
+
+.p-top-container {
+  margin: 3% auto 0 auto;
+  font-size: 1.56rem;
+  color: #ffe14a;
+}
+
+.middle-container {
+  background-image: linear-gradient(#6f86d6, #b5dee7);
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.middle-baking-h3 {
+  margin-top: 10%;
+}
+
+.middle-hr {
+  margin: 7% auto 3% auto;
+  clear: right;
+}
+
+.skills-img {
+  height: 25%;
+  width: 25%;
+  border-radius: 20%;
+  box-shadow: 2px 2px 2px;
+  color: white;
+  float: left;
+  margin-right: 3%;
+}
+
+.baking-img {
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-right: 3%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.contact-h2 {
+  font-size: 2.5rem;
+}
+.contact-h3 {
+  font-size: 1.2rem;
+}
+
+.contact-p {
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.btn {
+  background: #48c6ef;
+  background-image: -webkit-linear-gradient(top, #48c6ef, #2980b9);
+  background-image: -moz-linear-gradient(top, #48c6ef, #2980b9);
+  background-image: -ms-linear-gradient(top, #48c6ef, #2980b9);
+  background-image: -o-linear-gradient(top, #48c6ef, #2980b9);
+  background-image: linear-gradient(to bottom, #48c6ef, #2980b9);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.bottom-container {
+  background-color: #b5dee7;
+  /*background-image: linear-gradient(#b5dee7, #61cee8);*/
+  height: 60px;
+  padding: 40px 0 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: 10px 20px 15px;
+  color: #1a2d8b;
+}
+
+.footer-link:hover {
+  color: #3cb0fd;
+}
+
+.bottom-p {
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
